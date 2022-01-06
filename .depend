@@ -1,0 +1,8 @@
+sources/palette.o: sources/palette.cpp includes/rgb.hpp includes/palette.hpp
+
+sources/mandelbrot.o: sources/mandelbrot.cpp includes/options.hpp includes/bitmap.hpp includes/helpers.hpp includes/complex.hpp
+
+sources/options.o: sources/options.cpp 
+
+sources/complex.o: sources/complex.s 
+
